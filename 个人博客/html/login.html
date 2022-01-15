@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../res/css/login.css" />
+    <title>emoji 表单验证</title>
+</head>
+
+<body class="align">
+    <h3>输入密码</h3>
+
+    <form>
+        <div class="form__field">
+            <input type="password" class="form__input" pattern=".{6,}" required />
+            <span class="icon">
+              <a href="index.html">登录</a>
+            </span>
+        </div>
+    </form>
+
+    <p>密码是六位或者更多</p>
+</body>
+
+</html>
